@@ -1,0 +1,17 @@
+#ingredients {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.text{
+    font-size: 18px;
+}
+
+/* chaining selector */
+.text.weird-text{
+    color: red;
+}
+
+/* descendant combinator */
+.steps .text {
+    font-weight: 700;
+}
